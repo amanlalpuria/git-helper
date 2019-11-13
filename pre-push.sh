@@ -1,21 +1,10 @@
-#!/bin/sh
-# grep is to searching plain text
-# sed Stream editor for filtering and transforming text
+#!/bin/bash
 
-current_branch=`git branch | grep '*' | sed 's/* //'`
+# command to build the project. and count the error 
+echo "This is pre-push check"
+number_of_errors = 2
 
-if [ "$current_branch" = "master" ]; then
-    echo "You are about to push on branch. Lets try to build the code first"
-    
-    # code build statement
-    node index.js
-
-    if [ $? -eq 0 ]; then
-        # tests passed, proceed to prepare commit message
-        exit 0
-    else
-        # some tests failed, prevent from committing broken code on master
-        echo "Some tests failed. You are not allowed to commit broken code on master! Aborting the commit."
-        exit 1
-    fi
+if [ $number_of_errors != '0' ]; then
+  echo "$num_of_failures tests have failed. You cannot commit until all project build successfully."
+  exit 1
 fi
