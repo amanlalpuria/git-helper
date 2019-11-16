@@ -1,2 +1,7 @@
 # To setup pre-push Hook
-mv  Hooks/pre-commit .git/hooks
+  
+case "$OSTYPE" in
+  linux*)   echo "LINUX" 
+			cp Hooks/ .git/hooks  ;;
+  msys*)    echo "WINDOWS" 
+			copy Hooks/ .git/hooks ;;
