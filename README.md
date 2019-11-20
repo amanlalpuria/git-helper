@@ -1,6 +1,6 @@
 # Git-Helper
 
-In this project I have created a pre-push hook so that no one can push code without a succesfull build of code.
+In this project I have created a pre-push hook so that no one can push code without a successful build of code.
 
 ## Setup
 1. Clone the project.
