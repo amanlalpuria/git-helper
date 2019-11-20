@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="1" timestamp="1573987908234" analysisTimestamp="1573987831399" release="">
+  <Project projectName="git-issue">
+    <Jar>E:\Projects\git-issue\target\classes</Jar>
+    <Jar>E:\Projects\git-issue\target\test-classes</Jar>
+    <AuxClasspathEntry>E:\Projects\git-issue\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\Projects\git-issue\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-starter\2.2.1.RELEASE\spring-boot-starter-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot\2.2.1.RELEASE\spring-boot-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-context\5.2.1.RELEASE\spring-context-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-aop\5.2.1.RELEASE\spring-aop-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-beans\5.2.1.RELEASE\spring-beans-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-expression\5.2.1.RELEASE\spring-expression-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.2.1.RELEASE\spring-boot-autoconfigure-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.2.1.RELEASE\spring-boot-starter-logging-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.12.1\log4j-to-slf4j-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\slf4j\jul-to-slf4j\1.7.29\jul-to-slf4j-1.7.29.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-core\5.2.1.RELEASE\spring-core-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-jcl\5.2.1.RELEASE\spring-jcl-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.2.1.RELEASE\spring-boot-starter-test-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-test\2.2.1.RELEASE\spring-boot-test-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.2.1.RELEASE\spring-boot-test-autoconfigure-2.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\slf4j\slf4j-api\1.7.29\slf4j-api-1.7.29.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.2\junit-jupiter-5.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\mockito\mockito-junit-jupiter\3.1.0\mockito-junit-jupiter-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\net\bytebuddy\byte-buddy\1.10.2\byte-buddy-1.10.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.2\byte-buddy-agent-1.10.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\springframework\spring-test\5.2.1.RELEASE\spring-test-5.2.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rozi Roti\.m2\repository\org\xmlunit\xmlunit-core\2.6.3\xmlunit-core-2.6.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_231\lib\rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_231\lib\jce.jar</AuxClasspathEntry>
+    <SrcDir>E:\Projects\git-issue\src\main\java</SrcDir>
+    <SrcDir>E:\Projects\git-issue\src\main\resources</SrcDir>
+    <SrcDir>E:\Projects\git-issue\src\test\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 17 Nov 2019 09:17:17 +0530" total_classes="2" referenced_classes="15" total_bugs="0" total_size="9" num_packages="1" java_version="1.8.0_231" vm_version="25.231-b11" cpu_seconds="22.72" clock_seconds="76.86" peak_mbytes="570.88" alloc_mbytes="1024.00" gc_seconds="0.47">
+    <PackageStats package="com.example.gitissue" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="com.example.gitissue.GitIssueApplication" sourceFile="GitIssueApplication.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.example.gitissue.GitIssueApplicationTests" sourceFile="GitIssueApplicationTests.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1484" invocations="2" avgMicrosecondsPerInvocation="742301" maxMicrosecondsPerInvocation="1050296" standardDeviationMicrosecondsPerInvocation="307995"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="1105" invocations="48" avgMicrosecondsPerInvocation="23021" maxMicrosecondsPerInvocation="245545" standardDeviationMicrosecondsPerInvocation="47624"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="467" invocations="310" avgMicrosecondsPerInvocation="1509" maxMicrosecondsPerInvocation="76248" standardDeviationMicrosecondsPerInvocation="5037"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="201" invocations="313" avgMicrosecondsPerInvocation="644" maxMicrosecondsPerInvocation="21196" standardDeviationMicrosecondsPerInvocation="2124"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1573987908231" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
