@@ -28,6 +28,6 @@ while True:
 file.close()
 
 print('Errors in the project :')
-print(f'1. AuxClasspathEntry -{AuxClasspathEntry}')
-print(f'2. ClassStats        -{ClassStats}')
-print(f'3. ClassProfile      -{ClassProfile}')
+print('1. AuxClasspathEntry - {}'.format(AuxClasspathEntry))
+print('2. ClassStats        - {}'.format(ClassStats))
+print('3. ClassProfile      - {}'.format(ClassProfile))
