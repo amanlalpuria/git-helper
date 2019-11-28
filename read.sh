@@ -41,4 +41,8 @@ echo "1. AuxClasspathEntry - $AuxClasspathEntry"
 echo "2. ClassStats        - $ClassStats"
 echo "3. ClassProfile      - $ClassProfile"
 
+<<<<<<< HEAD
 echo "*************************************************************"
+=======
+echo "*************************************************************"
+>>>>>>> 708bb3a388e85aac51feff5f52d3bfa479fb2c76
