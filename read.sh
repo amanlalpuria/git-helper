@@ -18,20 +18,17 @@ while read line; do
 #  AuxClasspathEntry=$((AuxClasspathEntry+1))
 #fi
 
-if echo "$line" | grep 'AuxClasspathEntry'; then
-  echo "It's there!"
+if $line | grep 'AuxClasspathEntry'; then
   AuxClasspathEntry=$((AuxClasspathEntry+1))
 fi
 
 
 if echo "$line" | grep 'ClassStats'; then
-  echo "It's there!"
   ClassStats=$((ClassStats+1))
 fi
 
 
 if echo "$line" | grep 'ClassProfile'; then
-  echo "It's there!"
   ClassProfile=$((ClassProfile+1))
 fi
 
