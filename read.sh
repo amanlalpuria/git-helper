@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "*************************************************************"
+echo ":                        Error Count                        :"
+echo "*************************************************************"
 
 #declaring variables
 filename='file.xml'
@@ -21,18 +24,22 @@ if echo "$line" | grep 'AuxClasspathEntry'; then
 fi
 
 
-if echo "$line" | grep 'AuxClasspathEntry'; then
+if echo "$line" | grep 'ClassStats'; then
   echo "It's there!"
-  AuxClasspathEntry=$((AuxClasspathEntry+1))
+  ClassStats=$((ClassStats+1))
 fi
 
 
-if echo "$line" | grep 'AuxClasspathEntry'; then
+if echo "$line" | grep 'ClassProfile'; then
   echo "It's there!"
-  AuxClasspathEntry=$((AuxClasspathEntry+1))
+  ClassProfile=$((ClassProfile+1))
 fi
 
 done < $filename
 
 # Final Count
-echo AuxClasspathEntry
+echo "Errors in the project :"
+echo "1. AuxClasspathEntry - " > $AuxClasspathEntry
+echo "2. ClassStats        - " > $ClassStats
+echo "3. ClassProfile      - " > $ClassProfile
+
