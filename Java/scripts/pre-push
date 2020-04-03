@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "This is pre-push check"
+
+# if any command inside script return error, exit and return that error
+set -e
+
+case "$OSTYPE" in
+  linux*)   echo "LINUX" 
+			./mvnw clean install  ;;
+  msys*)    echo "WINDOWS" 
+			./mvnw.cmd clean install ;;
+esac
